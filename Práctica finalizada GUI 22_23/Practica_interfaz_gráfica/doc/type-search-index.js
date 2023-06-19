@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"controlador","l":"Controlador"},{"p":"<Unnamed>","l":"Main"},{"p":"vista","l":"Musica"},{"p":"modelo","l":"Ordenador"},{"p":"modelo","l":"Reparacion"},{"p":"modelo","l":"Tecnico"},{"p":"vista","l":"Vista"}];updateSearchResults();

@@ -1,4 +1,0 @@
-INDEX VERSION 1.132+C:\Users\piedr\Desktop\DAM1º22_23\java\Práctica finalizada GUI 22_23\.metadata\.plugins\org.eclipse.jdt.core
-1503727873.index
-3376472041.index
-1865797976.index
