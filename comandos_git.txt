@@ -9,14 +9,20 @@ git config --global user.email "email"  	configurar el email
 git config --global user.username "nombre"	configurar nombre usuario
 
 
-git status -s 					ver archivos que no tiene guardados ( con commit ) git o si no está actualizado  
-git add nombre					añadir un proyecto a git ( para dar respaldo es necesario este comando antes )
-git add .					añade todos los archivos
-git commit -m "nombre_descripcion"		guardar en git con la descripción o nombre entre comillado ( también para dar respaldo copias)
-git commit -am "nombre descripcion"		-a add -m nombre ( incluye el add )
+git status -s 					    ver archivos que no tiene guardados ( con commit ) git o si no está actualizado  
+git add nombre					    añadir un proyecto a git ( para dar respaldo es necesario este comando antes )
+git add . | nombreArchivo					añade todos los archivos
+git commit -m "nombre_descripcion"		    guardar en git con la descripción o nombre entre comillado ( también para dar respaldo copias)
+git commit -am "nombre descripcion"		    -a add -m nombre ( incluye el add )
 
 git log --oneline				ver qué hay en el repositorio
 git reset --hard codigo				restaurar a una fase anterior ( el codigo se consigue con  git log --oneline )
+
+git branch                              ver ramas
+git branch "nombre"                     crear nueva rama
+git checkout "nombre"                   cambiar de rama
+git merge "rama1" "rama2"               fusionar dos ramas
+
 
 
 editor VIM
