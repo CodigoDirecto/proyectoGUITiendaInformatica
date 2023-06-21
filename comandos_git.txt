@@ -21,7 +21,7 @@ git reset --hard codigo				restaurar a una fase anterior ( el codigo se consigue
 git branch                              ver ramas
 git branch "nombre"                     crear nueva rama
 git checkout "nombre"                   cambiar de rama
-git merge "rama1" "rama2"               fusionar dos ramas
+git merge "rama1" "rama2"               fusionar dos ramas ( debemos estar en la rama master )
 
 
 
