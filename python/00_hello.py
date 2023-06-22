@@ -29,15 +29,25 @@ name, surname, alias, age = "Colibrí","Desarrollador", "ColibriDesarrollador", 
 
 print("Me llamo",name,surname,".Mi edad es:",age, ". Y mi alias:", alias)
 
-#name = input(" ¿ Cuál es tu nombre ? ")
-#age = input(" ¿ Cuál es tu edad ? ")
+"""
+name = input(" ¿ Cuál es tu nombre ? ")
+age = input(" ¿ Cuál es tu edad ? ")
 
-#print("Nombre:",name)
-#print("Edad:",age)
+print("Nombre:",name)
+print("Edad:",age)
+"""
 
-# Cambio de tipos
+# Cambio de tipos ( no es de tipado fuerte )
 name = 35
 age = "Juan"
 
 print("Nombre:",name)
 print("Edad:",age)
+
+
+# ¿ Forzamos el tipado ? // tiene sentido en los input
+address : str = "Mi dirección" 
+address = 32
+# El tipo cambia aunque se fuerce el tipo
+print(type(address))
+
