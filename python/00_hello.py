@@ -15,6 +15,29 @@ print(type(my_int_to_str_variable))
 my_bool_variable = False
 print(my_bool_variable)
 
-# argumentos separados por comas ( crea una cadena )
+# argumentos separados por comas ( crea una cadena ) se puede pasar cualquier tipo de dato
 print(my_variable,str(my_int_variable),my_bool_variable)
+print("Este es el valor de : ",my_bool_variable)
 
+
+# Funciones  del sistema len() la longitud
+print(len(my_int_to_str_variable))
+print(len(my_variable))
+
+# Variables en una sola línea ( no abusar de esta forma de declarar variables )
+name, surname, alias, age = "Colibrí","Desarrollador", "ColibriDesarrollador", 41
+
+print("Me llamo",name,surname,".Mi edad es:",age, ". Y mi alias:", alias)
+
+#name = input(" ¿ Cuál es tu nombre ? ")
+#age = input(" ¿ Cuál es tu edad ? ")
+
+#print("Nombre:",name)
+#print("Edad:",age)
+
+# Cambio de tipos
+name = 35
+age = "Juan"
+
+print("Nombre:",name)
+print("Edad:",age)
