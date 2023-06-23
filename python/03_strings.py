@@ -38,3 +38,38 @@ print("Mi nombre es " + name + " " + surname + " y mi edad " + str(age)) # no es
 # Otro método para formatear strings con f"" es necesaria la f antes del string
 print(f"Mi nombre es {name} {surname} y mi edad {age}")
 
+
+
+
+# Desenpaquetado de carácteres ( cada carácter se guarda en una variable )
+lenguaje = "python"
+a, b, c, d, e, f = lenguaje
+print(a)
+print(e)
+
+# División ( otra forma de seleccionar carácteres de una variable [n:m]) desde n hasta m
+language_slice = lenguaje[1:3] # donde empieza y donde acaba
+print(language_slice)
+
+language_slice = lenguaje[1:] # seleccionar desde donde empieza
+print(language_slice)
+
+
+language_slice = lenguaje[0:6:2]# seleccionar partes
+print(language_slice)
+
+# Reverse ( darle la vuelta con [::-1])
+reversed_language = lenguaje[::-1]
+print(reversed_language)
+
+# Funciones
+
+print(lenguaje.capitalize()) #pone primera en mayuscula
+print(lenguaje.upper()) # string en máyuscula completamente
+print(lenguaje.count("t")) #cuenta cantidad ocurrencias de "t"
+print(lenguaje.isnumeric()) # boleano 
+print(lenguaje.lower()) # cambia en minusculas el string
+print(lenguaje.lower().isupper()) # funcion de lower boolean
+
+
+
