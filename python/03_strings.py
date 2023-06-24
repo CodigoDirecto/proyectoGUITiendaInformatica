@@ -70,6 +70,7 @@ print(lenguaje.count("t")) #cuenta cantidad ocurrencias de "t"
 print(lenguaje.isnumeric()) # boleano 
 print(lenguaje.lower()) # cambia en minusculas el string
 print(lenguaje.lower().isupper()) # funcion de lower boolean
+print(lenguaje.startswith("py")) #Comprobar si empieza por " "
 
 
 

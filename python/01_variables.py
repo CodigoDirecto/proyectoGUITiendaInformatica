@@ -1,8 +1,9 @@
 # Esto es un comentario
 # Nuestro hola mundo en Python
-
-
+# Python no puede definir constantes
+# Si queremos crear constantes ( aunque se pueden cambiar ) se escribe en mayúsculas NAME_VAR = "debería respetarse"
 #  Cadena de texto  con comulla simple o doble (es lo mismo)
+
 print("Hola Python")
 print('Hola Python')
 
